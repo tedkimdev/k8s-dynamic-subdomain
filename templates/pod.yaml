@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    app: dynamic-app
+  name: dynamic-app
+spec:
+  containers:
+  - image: alexwhen/docker-2048
+    name: docker-2048
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    app: admin-app
+  name: admin-app
+spec:
+  containers:
+  - image: nginx
+    name: nginx

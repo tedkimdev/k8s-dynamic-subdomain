@@ -1,0 +1,3 @@
+apiVersion: v2
+name: dynamic-subdomain-example
+version: 0.1.0
